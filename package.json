@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-aws-s3-sharp-resize",
-  "version": "3.1.7",
+  "version": "3.1.8",
   "description": "strapi @beta file upload to digital ocean spaces, with two resized images, resized by sharp",
   "directories": {
     "lib": "./lib"

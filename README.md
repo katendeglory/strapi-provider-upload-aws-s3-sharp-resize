@@ -12,16 +12,19 @@ Your configuration is passed down to the provider. (e.g: `new AWS.S3(config)`)
 {
   "provider": "aws-s3-sharp-resize",
   "providerOptions": {
-    "accessKeyId": "your-access-key-id",
-    "secretAccessKey": "your-secret-access-key",
+    "accessKeyId": "${process.env.ACCESS_KEY_ID}",
+    "secretAccessKey": "${process.env.SECRET_ACCESS_KEY}",
     "endpoint": "nyc3.digitaloceanspaces.com",
     "optimize": {
       "resize": true,
       "width": 1000,
       "height": 1000
     },
+    "settings": {
+      "awsUploadFolder": "your upload folder"
+    },
     "params": {
-      "Bucket": "bucket-name"
+      "Bucket": "strapi-app"
     }
   }
 }
