@@ -1,0 +1,32 @@
+{
+  "name": "strapi-provider-upload-aws-s3-sharp-resize",
+  "version": "3.1.0",
+  "description": "strapi @beta file upload to digital ocean spaces, with two resized images, resized by sharp",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Glory Katende <katendeglory@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/katendeglory/strapi-provider-upload-aws-s3-sharp-resize"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.485.0",
+    "sharp": "^0.22.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1"
+  }
+}
