@@ -18,11 +18,11 @@ Your configuration is passed down to the provider. (e.g: `new AWS.S3(config)`)
     "optimize": {
       "resize": true,
       "width": 1000, //optional
-      "height": 1000, //optional
+      "height": 1000 //optional
     },
     "params": {
-      "Bucket": "bucket-name",
-    },
+      "Bucket": "bucket-name"
+    }
   }
 }
 ```
@@ -55,5 +55,4 @@ module.exports = {
 };
 ```
 
-"# strapi-provider-upload-aws-s3-sharp-resize" 
 "# strapi-provider-upload-aws-s3-sharp-resize" 
