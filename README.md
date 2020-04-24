@@ -14,11 +14,11 @@ Your configuration is passed down to the provider. (e.g: `new AWS.S3(config)`)
   "providerOptions": {
     "accessKeyId": "your-access-key-id",
     "secretAccessKey": "your-secret-access-key",
-    "endpoint": "nyc3.digitaloceanspaces.com", //optional
+    "endpoint": "nyc3.digitaloceanspaces.com",
     "optimize": {
       "resize": true,
-      "width": 1000, //optional
-      "height": 1000 //optional
+      "width": 1000,
+      "height": 1000
     },
     "params": {
       "Bucket": "bucket-name"
